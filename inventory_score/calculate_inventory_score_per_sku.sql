@@ -2,7 +2,7 @@ with historic_data as (
 
     select distinct
         date,
-        parent_id, 
+        parent_id,
         parent_and_color_manufacturer as parent_and_color, 
         product_id as sku,
         parent_title as title_short,
